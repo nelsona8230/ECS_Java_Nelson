@@ -20,10 +20,10 @@ public class Schedule
 		System.out.println("Nelson's Class Schedule");
 		System.out.println("");
 		System.out.println("________________________________________");
-		System.out.println("|" +p1+"    |    "+bio+"   |    " +di+ "|");
-		System.out.println("|" +p2+"    |    "+math+"     |     "+far+"  |");
-		System.out.println("|" +p3+"    |    "+ecs+"       |   "+cu+"  |");
-		System.out.println("|" +p4+"    |    "+eng+"   |    "+bro+ "    |");
+		System.out.println("|" +p1+"    |    "+eng+"   |    " +di+ "|");
+		System.out.println("|" +p2+"    |    "+ecs+"       |     "+far+"  |");
+		System.out.println("|" +p3+"    |    "+math+"     |   "+cu+"  |");
+		System.out.println("|" +p4+"    |    "+bio+"   |    "+bro+ "    |");
 		System.out.println("|______________________________________|");
 	}
 }
