@@ -1,0 +1,6 @@
+import java.util.Scanner;
+public class HowOldSpec 
+{
+	System.out.println("How old are you.");
+	
+}
