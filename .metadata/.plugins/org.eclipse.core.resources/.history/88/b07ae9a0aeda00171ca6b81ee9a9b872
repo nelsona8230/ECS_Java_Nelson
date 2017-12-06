@@ -28,17 +28,5 @@ public class Spaceboxing
 		{
 			System.out.println("Yout weight would be " +( weight *2.65)+" pounds on that planet");
 		}
-		else if (planet == 4)
-		{
-			System.out.println("Yout weight would be " +( weight *1.17)+" pounds on that planet");
-		}
-		else if (planet == 5)
-		{
-			System.out.println("Yout weight would be " +( weight *1.05)+" pounds on that planet");
-		}
-		else if (planet == 6)
-		{
-			System.out.println("Yout weight would be " +( weight *1.23)+" pounds on that planet");
-		}
 	}
 }
