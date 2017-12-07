@@ -11,9 +11,9 @@ public class Dice
 		Scanner keyboard = new Scanner(System.in);
 		System.out.println("HERE COMES THE DICE");
 		System.out.print("Roll 1: ");
-		System.out.println(x);
+		System.out.println(1 + r.nextInt(6));
 		System.out.print("Roll 2: ");
-		System.out.println(y);
-		System.out.print("The total is " +(x+y)+"!");
+		System.out.println(1 + t.nextInt(6));
+		System.out.print("The total is " +(1 + r.nextInt(6)+ 1 + t.nextInt(6))+"!");
 	}
 }
