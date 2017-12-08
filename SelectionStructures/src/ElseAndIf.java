@@ -12,7 +12,7 @@ public class ElseAndIf
 			System.out.println("We should take the cars.");
 		}
 		
-		else if (cars < people )
+		 if (cars < people )
 		{
 			System.out.println("We should not take the cars.");
 		}

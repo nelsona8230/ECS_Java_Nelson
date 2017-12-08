@@ -1,9 +1,0 @@
-//This code displays a message of my initials made out of letters 
-public class Initials 
-{
-	public static void main(System[] args)
-	{
-		
-	}
-
-}
