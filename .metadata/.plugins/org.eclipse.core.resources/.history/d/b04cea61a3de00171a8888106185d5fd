@@ -9,16 +9,16 @@ public class KeepGuessing
 		int x = 1 + rng.nextInt(10);
 		
 		System.out.println("I HAVE CHOSEN A NUMBER BETWEEN 1 AND 10. TRY TO GUESS IT.");
-		System.out.print("YOUR GUESS: ");
+		System.out.print("YOUR GUESS:");
 		int num = keyboard.nextInt();
 
 		while (num != x)
 		{
 			System.out.println("\nINCORRECT NUMBER. TRY AGAIN.");
-			System.out.print("YOUR GUESS: ");
+			System.out.print("YOUR GUESS");
 			num = keyboard.nextInt();
 		}
-		System.out.println("Thats right, you're a good guesser!");
+		System.out.println("Thats right, you're a good guesser");
 		keyboard.close();
 	}
 }
