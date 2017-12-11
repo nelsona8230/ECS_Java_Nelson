@@ -1,0 +1,27 @@
+import java.util.Random;
+import java.util.Scanner;
+public class ShorterDoubleDice 
+{
+	public static void main(String[]args)
+	{
+		Random r = new Random();
+		Random t = new Random();
+		String again;
+		
+		do 
+		{
+			
+		
+		int x = 1 + r.nextInt(6);
+		int y = 1 + t.nextInt(6); 
+		String roll1;
+		String roll2;
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("HERE COMES THE DICE");
+	
+		System.out.print("The total is " +(x+y)+"!");
+		System.out.println("Would you like to roll again(y/n)?");
+		again = keyboard.next();
+		} while (again.equals("y"));
+	}
+}
