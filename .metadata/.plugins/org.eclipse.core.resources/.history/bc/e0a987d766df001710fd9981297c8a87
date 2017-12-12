@@ -1,0 +1,41 @@
+import java.util.Random;
+import java.util.Scanner;
+public class HiLowLimited 
+{
+	public static void main(String[]args)
+	{
+		Random r = new Random();
+		int x = 1 + r.nextInt(100);
+		int num;
+		int tries = 0;
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("Im thinking of a number between 1-100. Try to guess it. You have 7 tries. ");
+		System.out.print("First Guess");
+		num = keyboard.nextInt();
+		tries++;
+		while (num == x && tries<7)
+		{
+			System.out.println("Good Guess, Thats correct! ");
+			num = keyboard.nextInt();
+		}
+		if (num < x && tries<7)
+		{
+			System.out.println("Nice try, you are too low. ");
+			num = keyboard.nextInt();
+			tries++;
+			System.out.print(+tries+" Guess");
+		}
+		else if (num > x && tries<7)
+		{
+			System.out.println("Nice try, you are too high. ");
+			num = keyboard.nextInt();
+			tries++;
+			System.out.print(+tries+" Guess");
+		}
+		else if (tries>7)
+		{
+			System.out.println("You have run out of guesses.");
+			tries++;
+		}
+	}
+}
