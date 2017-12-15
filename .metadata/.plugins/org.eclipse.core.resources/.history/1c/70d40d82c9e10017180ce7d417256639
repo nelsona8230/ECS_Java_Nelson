@@ -1,0 +1,48 @@
+import java.util.Scanner;
+public class AreaCalc 
+{
+	public static void main(String[]args)
+	{
+	Scanner keyboard = new Scanner(System.in);
+	System.out.println("1.Triangle");
+	System.out.println("2.Rectangle");
+	System.out.println("3.Square");
+	System.out.println("4.Circle");
+	System.out.println("5.Quit");
+	System.out.println("Which Shape?");
+	int which  = keyboard.nextInt();
+	if(which ==1)
+	{
+		double area = tri();
+		System.out.println("The area is: " +area+".");
+	}}
+	public static double tri( )
+	{
+		double tri;
+		Scanner keyboard = new Scanner(System.in);
+		System.out.print("Base: ");
+		double b =keyboard.nextDouble();
+		System.out.print("Height: ");
+		double h = keyboard.nextDouble();
+		tri = (b*h*.5);
+		return tri;
+	}
+	public static double rect(int l, int w)
+	{
+	double rect;
+	rect = (l*w);
+	return rect;
+	}
+	public static double squ(int s)
+	{
+		double squ;
+		squ = (s*s);
+		return squ;
+	}
+	public static double cir(int r)
+	{
+		double cir;
+		cir = (3.14*r*r);
+		return cir;
+	}
+}
